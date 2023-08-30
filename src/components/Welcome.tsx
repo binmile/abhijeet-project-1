@@ -1,8 +1,13 @@
 import React, {Component} from "react";
 
-class Welcome extends Component {
+type WelcomeProps = {
+    name: string;
+    heroName: string;
+  };
+
+class Welcome extends Component<WelcomeProps> {
     render (){
-        return <h1>class component</h1>;
+        return <h1>Welcome {this.props.name} aka {this.props.heroName}</h1>;
     }
 }
 export default Welcome;
