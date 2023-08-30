@@ -3,11 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
+import Message from './components/message';
 
 function App() {
   return (
     <div className="App">
-     <Greet name = "clark" heroName="superman">
+      <Message />
+     {/* <Greet name = "clark" heroName="superman">
       <p> he is a famous superhero</p>
      </Greet>
 
@@ -17,7 +19,7 @@ function App() {
      <Greet name = "Diana" heroName="wonder woman"/>
      <Welcome name = "clark" heroName="superman"/>
      <Welcome name = "Bruce" heroName="batman"/>
-     <Welcome name = "Diana" heroName="wonder woman" />
+     <Welcome name = "Diana" heroName="wonder woman" /> */}
     </div>
   );
 } 
