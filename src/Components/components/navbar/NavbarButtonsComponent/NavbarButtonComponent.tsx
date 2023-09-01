@@ -4,8 +4,9 @@ import Button from '../../../CommonComponents/Button'
 const NavbarButtonComponent = () => {
   return (
     <div className='flex'>
-        <Button/>
-        <Button/>
+        <Button text={'Create a resume'}/>
+        <Button text={'Sign in'}/>
+        
     </div>
   )
 }

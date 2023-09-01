@@ -1,24 +1,21 @@
 import React from 'react'
 
-import { menuData } from '../../../../DummyData/DummyData'
-
 interface NavbarListComponentProps {
-  menuData: string[];
+  strings: string[];
 }
 
-const NavbarListComponent: React.FC<NavbarListComponentProps> = (props) => {
- 
+
+const NavbarListComponent:React.FC<NavbarListComponentProps> = (props) => {
+  const menuList= props.strings.map((strings,index)=>
+  <li key={index}>{strings} </li>
+  )
+  
   
   return (
     <div>
-     {props.menuData.map((props, index) =>
-    
-    <a key={index} href={'#'}>
-      {props}
-    </a>)}
-    
-     
-        
+      <ul className='flex'>
+        {menuList}
+      </ul>
     </div>
   )
 }

@@ -1,13 +1,13 @@
 import React from 'react'
 import NavbarListComponent from './NavbarListComponent'
 import NavbarLogoComponent from './NavbarLogoComponent'
-import { menuData } from '../../../../DummyData/DummyData'
+import menuData from '../../../../dummyData/dummyData'
 
 const NavbarMenuComponent = () => {
   return (
     <div className='flex '>
         <NavbarLogoComponent/>
-        <NavbarListComponent menuData={[]} />
+        <NavbarListComponent strings={menuData}/>
     </div>
   )
 }

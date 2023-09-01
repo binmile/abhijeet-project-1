@@ -1,9 +1,13 @@
 import React from 'react'
 
-function Button() {
+interface buttonProps{
+  text:string;
+}
+
+const Button:React.FC<buttonProps> = ({text}) => {
   return (
     <div>
-        <button>button</button>
+      <button>{text}</button> 
     </div>
   )
 }
