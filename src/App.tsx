@@ -1,16 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { ComponentHeader } from './Components/header/HeaderComponent';
+import NavbarComponent from './Components/components/navbar/NavbarComponent';
 
 
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <ComponentHeader/>
-    </div> 
-  );
+    <div>
+      <NavbarComponent/>
+    </div>
+  )
 }
 
-export default App;
+export default App
