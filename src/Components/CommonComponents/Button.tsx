@@ -6,8 +6,8 @@ interface buttonProps{
 
 const Button:React.FC<buttonProps> = ({text}) => {
   return (
-    <div>
-      <button>{text}</button> 
+    <div className='rounded-3xl bg-red-600 p-2'>
+      <button className='text-white'>{text}</button> 
     </div>
   )
 }
