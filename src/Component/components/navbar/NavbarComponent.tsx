@@ -4,7 +4,7 @@ import NavbarMenuComponent from './NavbarMenuComponent/NavbarMenuComponent'
 
 const NavbarComponent = () => {
   return (
-    <div className='flex justify-between items-center gap-6'>
+    <div className='flex justify-between items-center gap-20'>
         <NavbarMenuComponent/>
         <NavbarButtonComponent/>
     </div>

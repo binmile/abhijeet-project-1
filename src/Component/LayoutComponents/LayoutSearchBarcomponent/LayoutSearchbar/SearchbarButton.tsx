@@ -4,7 +4,7 @@ import Button from '../../../CommonComponents/Button'
 const SearchbarButton = () => {
   return (
     <div>
-        <Button text='Profession, position or company'/>
+        <Button text='Find Job'/>
     </div>
   )
 }

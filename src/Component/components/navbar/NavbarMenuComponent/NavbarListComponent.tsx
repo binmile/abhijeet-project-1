@@ -14,7 +14,7 @@ const NavbarListComponent:React.FC<NavbarListComponentProps> = (props) => {
   
   return (
     <div>
-      <ul className='flex linkFont gap-6' >
+      <ul className='flex linkFont gap-20' >
         {menuList}
       </ul>
     </div>

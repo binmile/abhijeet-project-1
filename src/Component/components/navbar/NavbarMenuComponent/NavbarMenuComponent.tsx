@@ -5,7 +5,7 @@ import menuData from '../../../../dummyData/dummyData'
 
 const NavbarMenuComponent = () => {
   return (
-    <div className='flex items-center gap-6'>
+    <div className='flex items-center gap-20'>
         <NavbarLogoComponent/>
         <NavbarListComponent strings={menuData}/>
     </div>
