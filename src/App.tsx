@@ -10,7 +10,7 @@ import LayoutComponents from './Component/LayoutComponents/LayoutComponents';
 
 const App = () => {
   return (
-    <div>
+    <div className='p-[20px] md:p-[85px]'>
       <NavbarComponent/>
       <LayoutComponents/>
     </div>

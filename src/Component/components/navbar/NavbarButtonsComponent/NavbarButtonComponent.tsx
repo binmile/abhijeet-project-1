@@ -1,12 +1,15 @@
 import React from 'react'
 import Button from '../../../CommonComponents/Button'
+import ResumeButtonComponent from './ResumeButtonComponent'
+import SignInButtonComponent from './SignInButtonComponent'
 
 const NavbarButtonComponent = () => {
+
+
   return (
-    <div className='sm:flex linkFont gap-20 whitespace-nowrap hidden'>
-        <Button text={'Create a resume'}/>
-        <Button text={'Sign in'}/>
-        
+    <div className='xl:flex xl:gap-10 xl:align-middle hidden '>
+      <ResumeButtonComponent/>
+      <SignInButtonComponent/>
     </div>
   )
 }

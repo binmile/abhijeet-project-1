@@ -10,7 +10,7 @@ line-height: normal;
 .titleFont{
     color: #333;
 font-family: Montserrat;
-font-size: 59.308px;
+
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -29,6 +29,33 @@ line-height: normal;
     color: #BCBABA;
 font-family: Montserrat;
 font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.buttonFont{
+   
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.titleFontPhone{
+    color: #333;
+font-family: Montserrat;
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.subheadingFontPhone{
+    color: #676767;
+font-family: Montserrat;
+font-size: 21.063px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;

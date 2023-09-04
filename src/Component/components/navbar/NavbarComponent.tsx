@@ -6,7 +6,7 @@ import NavImage from '../NavImage'
 
 const NavbarComponent = () => {
   return (
-    <div className='flex justify-evenly items-center gap-20 flex-wrap'>
+    <div className='flex justify-between items-center  flex-wrap'>
         <NavbarMenuComponent/>
         <NavbarButtonComponent/>
         <NavImage/>

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Searchbar = () => {
   return (
-    <div>
-         <input className='searchBarFont p-2 border-2 rounded' type="text" defaultValue={'Profession, position or company'}/>
+    <div className='md:w-[400px] w-[230x] border-2 rounded-[30px] p-1 md:p-3 border-black'>
+         <input className='searchBarFont outline-none text-center' type="text " defaultValue={'Profession, position '}/>
     </div>
   )
 }

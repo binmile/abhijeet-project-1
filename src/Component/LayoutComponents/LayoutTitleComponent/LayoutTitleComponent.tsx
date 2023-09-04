@@ -3,7 +3,7 @@ import '/home/abhijeet/Desktop/my-ts-tailwind-app/src/fontStyles/textStyles.css'
 
 const LayoutTitleComponent = () => {
   return (
-    <div className='titleFont whitespace-nowrap'>Head Hunter</div>
+    <div className=' whitespace-nowrap titleFont text-[39px] lg:text-[69px]'>Head Hunter</div>
   )
 }
 

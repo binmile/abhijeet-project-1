@@ -2,12 +2,13 @@ import React from 'react'
 
 interface buttonProps{
   text:string;
+  className?: string
 }
 
-const Button:React.FC<buttonProps> = ({text}) => {
+const Button:React.FC<buttonProps> = ({text,className}) => {
   return (
-    <div className='rounded-3xl bg-red-600 p-2'>
-      <button className='text-white'>{text}</button> 
+    <div className='p-3 whitespace-nowrap flex items-center justify-center'>
+      <button className={'style'}>{text}</button> 
     </div>
   )
 }

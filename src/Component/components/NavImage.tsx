@@ -3,7 +3,7 @@ import Menu from '/home/abhijeet/Desktop/my-ts-tailwind-app/src/Assests/Images/M
 
 const NavImage = () => {
   return (
-    <div className='md:hidden'>
+    <div className='xl:hidden'>
         <img src={Menu} alt="#" className=''/>
     </div>
   )

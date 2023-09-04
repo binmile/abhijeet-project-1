@@ -4,7 +4,7 @@ import LayoutImageComponent from './LayoutImageComponent'
 
 const LayoutComponents = () => {
   return (
-    <div className='flex justify-evenly mt-20 gap-10 flex-wrap'>
+    <div className='flex justify-center mt-20 flex-wrap gap-[20px]'>
         <LayoutTextComponent/>
         <LayoutImageComponent/>
     </div>
