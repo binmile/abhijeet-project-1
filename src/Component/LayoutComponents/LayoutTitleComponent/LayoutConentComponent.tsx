@@ -4,7 +4,7 @@ import LayoutSubHeadingComponent from './LayoutSubHeadingComponent'
 
 const LayoutConentComponent = () => {
   return (
-    <div>
+    <div className='gap-6'>
         <LayoutTitleComponent/>
         <LayoutSubHeadingComponent/>
     </div>

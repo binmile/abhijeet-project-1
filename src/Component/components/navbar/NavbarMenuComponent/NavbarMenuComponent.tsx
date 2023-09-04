@@ -8,6 +8,7 @@ const NavbarMenuComponent = () => {
     <div className='flex items-center gap-20'>
         <NavbarLogoComponent/>
         <NavbarListComponent strings={menuData}/>
+        
     </div>
   )
 }

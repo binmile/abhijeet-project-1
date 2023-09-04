@@ -6,7 +6,7 @@ import Searchbar from './Searchbar'
 
 const LayoutSearchbarcomponent = () => {
   return (
-    <div>
+    <div className='flex gap-8 items-center'>
        <Searchbar/>
        <SearchbarButton/>
     </div>

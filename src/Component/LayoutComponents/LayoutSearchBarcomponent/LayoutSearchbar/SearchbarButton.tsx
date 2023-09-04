@@ -3,7 +3,7 @@ import Button from '../../../CommonComponents/Button'
 
 const SearchbarButton = () => {
   return (
-    <div>
+    <div className='w-20'>
         <Button text='Find Job'/>
     </div>
   )

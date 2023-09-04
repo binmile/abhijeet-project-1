@@ -3,7 +3,7 @@ import Button from '../../../CommonComponents/Button'
 
 const NavbarButtonComponent = () => {
   return (
-    <div className='flex linkFont gap-20'>
+    <div className='sm:flex linkFont gap-20 whitespace-nowrap hidden'>
         <Button text={'Create a resume'}/>
         <Button text={'Sign in'}/>
         

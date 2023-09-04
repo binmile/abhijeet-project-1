@@ -13,8 +13,8 @@ const NavbarListComponent:React.FC<NavbarListComponentProps> = (props) => {
   
   
   return (
-    <div>
-      <ul className='flex linkFont gap-20' >
+    <div className='hidden md:flex'>
+      <ul className='flex linkFont gap-20 whitespace-nowrap ' >
         {menuList}
       </ul>
     </div>
