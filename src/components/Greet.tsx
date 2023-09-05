@@ -1,20 +1,17 @@
-import React from 'react'
 
-const clickHandler = () => {
-    console.log('hello')
-}
-const clickHandlerAgain = (name:string):void=> {
-    console.log('my name is '+ name)
-}
+import React,{ useState } from "react"
 
-const Greet = () => {
-  return (
-    <div>
-        <h1>greetings</h1>
-        <button onClick={clickHandler}>click here</button>
-        <button onClick={()=>clickHandlerAgain('abhijeet')}>click me for my name</button>
-    </div>
-  )
+const Greet = ()=> {
+  const [name ,setName ] = useState('mario')
+const clickHandler = ()=>{
+  setName('luigi')
 }
-
+return(
+  <div>
+    <h2>homepage</h2>
+    <p>{name}</p>
+    <button onClick={clickHandler}>click me</button>
+  </div>
+)
+}
 export default Greet
