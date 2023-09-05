@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from '../../../CommonComponents/Button'
-import ResumeButtonComponent from './ResumeButtonComponent'
-import SignInButtonComponent from './SignInButtonComponent'
+import Button from '../../../../../components/Button'
+import ResumeButtonComponent from './ComponentResumeButton'
+import SignInButtonComponent from './ComponentSignInButton'
 
 const NavbarButtonComponent = () => {
 

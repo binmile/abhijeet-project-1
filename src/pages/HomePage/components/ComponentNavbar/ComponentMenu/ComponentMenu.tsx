@@ -1,7 +1,7 @@
 import React from 'react'
-import NavbarListComponent from './NavbarListComponent'
-import NavbarLogoComponent from './NavbarLogoComponent'
-import menuData from '../../../../dummyData/dummyData'
+import NavbarListComponent from './ComponentList'
+import NavbarLogoComponent from './ComponentLogo'
+import menuData from '../../../../../assests/dummyData/dummyData'
 
 const NavbarMenuComponent = () => {
   return (

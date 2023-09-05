@@ -1,6 +1,6 @@
 import React from 'react'
-import LayoutTextComponent from './LayouttextComponent'
-import LayoutImageComponent from './LayoutImageComponent'
+import LayoutTextComponent from './ComponentHeading/ComponentHeading'
+import LayoutImageComponent from './ComponentImage/ComponentImage'
 
 const LayoutComponents = () => {
   return (

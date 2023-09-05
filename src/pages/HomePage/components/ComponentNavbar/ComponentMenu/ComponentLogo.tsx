@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../../CommonComponents/Logo'
+import Logo from '../../../../../components/Logo'
 
 const NavbarLogoComponent = () => {
   return (

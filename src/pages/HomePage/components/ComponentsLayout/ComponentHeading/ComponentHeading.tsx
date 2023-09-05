@@ -1,6 +1,6 @@
 import React from 'react'
-import LayoutSearchbarcomponent from './LayoutSearchBarcomponent/LayoutSearchbar/LayoutSearchbarcomponent'
-import LayoutConentComponent from './LayoutTitleComponent/LayoutConentComponent'
+import LayoutSearchbarcomponent from './ComponentSearchPanel/ComponentSearchPanel'
+import LayoutConentComponent from './ComponentTitleSubTitle/ComponentTitleSubTitle'
 
 
 

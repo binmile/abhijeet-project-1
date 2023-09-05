@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from '/home/abhijeet/Desktop/my-ts-tailwind-app/src/Assests/Images/Menu.png'
+import Menu from '/home/abhijeet/Desktop/my-ts-tailwind-app/src/assests/Images/Menu.png'
 
 const NavImage = () => {
   return (
