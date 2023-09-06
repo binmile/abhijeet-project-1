@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../../../../../../components/buttons/ComponentButton'
+import Button from '../../../../../../components/Buttons/ComponentButton'
 import '/home/abhijeet/Desktop/my-ts-tailwind-app/src/utils/fontStyles/textStyles.css'
 import SearchbarButton from './ComponentSearchBar/SearchBarButton'
 import Searchbar from './ComponentSearchBar/SearchBar'

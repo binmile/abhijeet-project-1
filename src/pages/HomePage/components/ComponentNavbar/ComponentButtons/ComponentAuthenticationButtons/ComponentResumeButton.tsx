@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from "../../../../../../components/buttons/ComponentButton"
+import Button from "../../../../../../components/Buttons/ComponentButton"
 
 const ResumeButtonComponent = () => {
   return (
