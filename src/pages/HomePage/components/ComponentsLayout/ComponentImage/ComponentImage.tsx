@@ -1,5 +1,5 @@
 import React from 'react'
-import LayoutImg from "/home/abhijeet/Desktop/my-ts-tailwind-app/src/assests/Images/LayoutImg.png"
+import { LayoutImg } from '../../../../../assests'
 
 const LayoutImageComponent = () => {
   return (

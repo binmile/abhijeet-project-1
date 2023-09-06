@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import NavbarComponent from './pages/HomePage/components/ComponentNavbar/ComponentNavbar';
-import LayoutComponents from './pages/HomePage/components/ComponentsLayout/ComponentLayout';
+import HomePage from './pages/HomePage/HomePage';
 
 
 
@@ -12,8 +11,7 @@ import LayoutComponents from './pages/HomePage/components/ComponentsLayout/Compo
 const App = () => {
   return (
     <div className='p-[20px] md:p-[85px]'>
-      <NavbarComponent/>
-      <LayoutComponents/>
+      <HomePage/>
     </div>
   )
 }

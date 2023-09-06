@@ -1,5 +1,5 @@
 import React from 'react'
-import "/home/abhijeet/Desktop/my-ts-tailwind-app/src/assests/fontStyles/textStyles.css"
+import "/home/abhijeet/Desktop/my-ts-tailwind-app/src/utils/fontStyles/textStyles.css"
 
 interface NavbarListComponentProps {
   strings: string[];

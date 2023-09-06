@@ -1,6 +1,6 @@
 import React from 'react'
-import LayoutTitleComponent from './ComponentTitle'
-import LayoutSubHeadingComponent from './ComponentSubtitle'
+import LayoutTitleComponent from './ComponentTextContent/ComponentTitle'
+import LayoutSubHeadingComponent from './ComponentTextContent/ComponentSubtitle'
 
 const LayoutConentComponent = () => {
   return (

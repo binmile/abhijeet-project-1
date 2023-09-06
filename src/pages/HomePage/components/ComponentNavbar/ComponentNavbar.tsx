@@ -1,7 +1,7 @@
 import React from 'react'
 import NavbarButtonComponent from './ComponentButtons/ComponentButtons'
 import NavbarMenuComponent from './ComponentMenu/ComponentMenu'
-import NavImage from './ComponentMenu/ComponentMenuIcon'
+import NavImage from './ComponentMenu/Component/ComponentNavigation/ComponentMenuIcon'
 
 
 const NavbarComponent = () => {
