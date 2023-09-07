@@ -1,13 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HomePage from './pages/HomePage/HomePage';
 
-function App() {
+
+
+
+
+
+const App = () => {
   return (
-    <div className="App">
-     
+    <div className='p-[20px] md:p-[85px]'>
+      <HomePage/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
