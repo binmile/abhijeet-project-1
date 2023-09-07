@@ -6,8 +6,8 @@ interface NavbarListComponentProps {
 }
 
 
-const NavbarListComponent:React.FC<NavbarListComponentProps> = (props) => {
-  const menuList= props.strings.map((strings,index)=>
+const NavbarListComponent:React.FC<NavbarListComponentProps> = ({strings}) => {
+  const menuList= strings.map((strings,index)=>
   <li key={index}>{strings} </li>
   )
   

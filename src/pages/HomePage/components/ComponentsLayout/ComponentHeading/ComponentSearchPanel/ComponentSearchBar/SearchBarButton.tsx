@@ -1,10 +1,10 @@
 import React from 'react'
-import Button from '../../../../../../../components/Buttons/ComponentButton'
+import ComponentButton from '../../../../../../../components/Buttons/ComponentButton'
 
 const SearchbarButton = () => {
   return (
     <div className='w-[120px] bg-red-600 rounded-[30px] text-white'>
-        <Button text='Find Job'/>
+        <ComponentButton text='Find Job'/>
     </div>
   )
 }

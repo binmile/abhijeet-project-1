@@ -1,10 +1,10 @@
 import React from 'react'
-import Button from "../../../../../../components/Buttons/ComponentButton"
+import ComponentButton from "../../../../../../components/Buttons/ComponentButton"
 
 const ResumeButtonComponent = () => {
   return (
     <div className='border-[1px] border-black rounded-[30px] w-[200px]'>
-      <Button text='Create a resume' className='buttonFont'/>
+      <ComponentButton text='Create a resume' className='buttonFont'/>
     </div>
   )
 }

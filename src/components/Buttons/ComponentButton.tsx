@@ -1,11 +1,11 @@
 import React from 'react'
 
-interface buttonProps{
+interface ComponentButtonProps{
   text:string;
   className?: string
 }
 
-const Button:React.FC<buttonProps> = ({text,className}) => {
+const ComponentButton:React.FC<ComponentButtonProps> = ({text,className}) => {
   return (
     <div className='p-3 whitespace-nowrap flex items-center justify-center'>
       <button className={'style'}>{text}</button> 
@@ -13,4 +13,4 @@ const Button:React.FC<buttonProps> = ({text,className}) => {
   )
 }
 
-export default Button
+export default ComponentButton
