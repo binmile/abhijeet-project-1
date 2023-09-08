@@ -10,6 +10,8 @@ const Navbar = () => {
     <nav className={`p-3 flex gap-4`} >
         <NavLink to={'/'}>Home</NavLink>
         <NavLink to={'about'}>About</NavLink>
+        <NavLink to={'products'}>Products</NavLink>
+        
 
     </nav>
   )
